@@ -26,15 +26,8 @@ exports.config =
           "js": "bootstrap"
           "stylus": "bootstrap"
         ]
-        "footable": [
-          "js/footable.js"
-          "js/footable.sort.js"
-          "js/footable.paginate.js"
-          "css/footable.core.css"
-          "css/footable.standalone.css"
-          "css/footable.metro.css"
-          "css/fonts": "footable/fonts"
-        ]
+        "ic-ajax": ["dist/amd/main.js": "ic-ajax/ic-ajax.js"]
+        "jayson": ["build/jayson.jquery.min.js"]
         "spin.js": ["spin.js": "spin/spin.js"]
         "toastr-stylus": [
           "stylus": "toastr"

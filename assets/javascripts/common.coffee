@@ -3,6 +3,8 @@ requirejs.config
     "bootstrap": "vendor/bootstrap/bootstrap"
     "ember": "vendor/ember/ember"
     "handlebars": "vendor/handlebars/handlebars"
+    "ic-ajax": "vendor/ic-ajax/ic-ajax"
+    "jayson": "vendor/jayson/jayson.jquery.min"
     "jquery": "vendor/jquery/jquery"
     "numeral": "vendor/numeral/numeral"
     "spin": "vendor/spin/spin"
@@ -14,3 +16,4 @@ requirejs.config
       exports: "Ember"
     "handlebars":
       exports: "Handlebars"
+    "jayson": ["jquery"]

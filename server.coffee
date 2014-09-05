@@ -6,6 +6,8 @@ favicon = require 'serve-favicon'
 cookieParser = require 'cookie-parser'
 errorHandler = require 'errorhandler'
 
+similarity = require "./similarity"
+
 exports.startServer = (config, callback) ->
   app = express()
 
@@ -38,6 +40,8 @@ exports.startServer = (config, callback) ->
 
   # routes
   app.use '/', router
+
+  app.post "/similarity", similarity.post
 
   # start it up
   server = app.listen app.get('port'), ->

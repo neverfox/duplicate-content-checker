@@ -1,0 +1,23 @@
+.container
+  .row
+    form role="form" submit="submit"
+      .form-group.col-md-4.col-md-offset-4
+        label.control-label for="url1" URL 1
+        = input#url1 class="form-control" value=url1
+      .form-group.col-md-4.col-md-offset-4
+        label.control-label for="url2" URL 2
+        = input#url2 class="form-control" value=url2
+      .form-group.col-md-4.col-md-offset-4
+        button.btn.btn-primary type="submit" Submit
+  .row
+    h1 Results
+    each
+      .well
+        h3 Sentence from URL 1
+        blockquote
+          = sentence1
+        h3 Sentence from URL 2
+        blockquote
+          = sentence2
+        h3 Similarity Score: 
+        = similarity

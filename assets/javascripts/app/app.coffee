@@ -1,7 +1,7 @@
 define (require) ->
   "use strict"
 
-  Ember      = require "ember"
+  Ember = require "ember"
 
   Ember.LOG_BINDINGS = true
   Ember.ENV =
@@ -16,6 +16,7 @@ define (require) ->
     rootElement: "#applicationHost"
 
     # Controllers
+    IndexController: require "app/controllers/index"
 
     # Models
 
@@ -24,5 +25,6 @@ define (require) ->
     # Views
 
     # Components
+    NumeralFormat: require "app/components/numeral-format"
 
     # Mixins
