@@ -52,3 +52,9 @@ what
 .tmproj
 nbproject
 Thumbs.db
+
+# Bower
+/bower_components
+/assets/*/vendor/*
+/assets/fonts
+/assets/stylesheets/fonts/footable.*
