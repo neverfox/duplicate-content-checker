@@ -29,6 +29,7 @@ what
 /public
 /dist
 /.mimosa/require/tracking.json
+/docs
 
 # Numerous always-ignore extensions
 *~

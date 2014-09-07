@@ -55,6 +55,7 @@ exports.config =
       ".git"
       ".mimosa"
       "assets"
+      "docs"
       "generators"
       "node_modules"
       ".gitignore"
