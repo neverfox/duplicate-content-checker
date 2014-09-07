@@ -1,11 +1,20 @@
 Duplicate Content Checker
 =========================
 
+Demo
+----
+
+A [working demo](http://duplicate-content-checker.herokuapp.com/) is available on Heroku.
+
 Prerequisites
 -------------
 
 - Git
 - Node.js
+- JDK (32-bit or 64-bit, according to Node.js version)
+- Python 2.x (for node-gyp)
+
+Only tested on Linux. Not guaranteed to build on Windows.
 
 Installation
 ------------
@@ -26,6 +35,8 @@ mimosa build -mop
 # Launch
 cd dist && node app.js
 ```
+
+Then, open `localhost:3000` in your browser.
 
 Documentation
 -------------
