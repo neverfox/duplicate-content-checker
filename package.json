@@ -1,6 +1,6 @@
 {
   "name": "three-ships",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Mimosa starter skeleton",
   "dependencies": {
     "bluebird": "2.3.2",
