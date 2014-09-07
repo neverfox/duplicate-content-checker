@@ -64,7 +64,7 @@ exports.config =
       "makefile"
       "mimosa-config.coffee"
       "mimosa-config-documented.coffee"
-      "three-ships.sublime-project"
-      "three-ships.sublime-workspace"
+      "duplicate-content-checker.sublime-project"
+      "duplicate-content-checker.sublime-workspace"
       "test.sh"
     ]
