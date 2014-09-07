@@ -24,6 +24,6 @@
     "mimosa-handlebars-on-window": "*",
     "mimosa-less": "*",
     "mimosa-stylus": "*",
-    "mimosa-testem-qunit": "*"
+    "mimosa-web-package": "*"
   }
 }
