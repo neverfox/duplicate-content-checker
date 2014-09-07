@@ -1,1 +1,3 @@
+.page-header.text-center
+  h1 Duplicate Content Checker
 = outlet

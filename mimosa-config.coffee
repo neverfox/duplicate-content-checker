@@ -13,7 +13,6 @@ exports.config =
     "minify-js"
     "require"
     "server"
-    "server-reload"
     "stylus"
     "web-package"
   ]
@@ -43,9 +42,6 @@ exports.config =
     helpers: ["app/templates/handlebars-helpers"]
     emberPath: "ember"
 
-  serverReload:
-    watch: ["server.coffee"]
-
   template:
     nameTransform: (path) ->
       m = path.match /templates?\/(.*)$/
@@ -55,11 +51,11 @@ exports.config =
       return path[path.length - 1]
 
   webPackage:
-    archiveName: null
     exclude: [
       ".git"
       ".mimosa"
       "assets"
+      "docs"
       "generators"
       "node_modules"
       ".gitignore"

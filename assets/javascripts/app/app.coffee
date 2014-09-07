@@ -25,6 +25,6 @@ define (require) ->
     # Views
 
     # Components
-    NumeralFormat: require "app/components/numeral-format"
+    NumeralFormatComponent: require "app/components/numeral-format"
 
     # Mixins

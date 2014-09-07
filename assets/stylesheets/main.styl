@@ -1,29 +1,2 @@
 @import "variables"
 @import "mixins"
-
-html, body
-  height 100%
-
-body
-  padding-top 70px
-  padding-bottom 70px
-  > .ember-application
-    height 100%
-    > .ember-view
-      height 100%
-  
-.navbar-brand.logo
-  float right
-  padding-top $brand-padding
-  padding-bottom $brand-padding
-
-.navbar-brand.logo img
-  height $logo-height
-
-@media only screen and (max-width: 979px)
-  body
-    padding-top 0px
-    padding-bottom 0px
-
-  .navbar-fixed-top
-    position static
