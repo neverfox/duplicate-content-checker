@@ -51,7 +51,6 @@ exports.config =
       return path[path.length - 1]
 
   webPackage:
-    archiveName: null
     exclude: [
       ".git"
       ".mimosa"
