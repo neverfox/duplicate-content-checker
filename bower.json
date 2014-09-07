@@ -1,6 +1,6 @@
 {
   "name": "three-ships",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "dependencies": {
     "bootstrap": "3.2.0",
     "bootstrap-stylus": "3.2.0",
