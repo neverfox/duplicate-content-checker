@@ -13,7 +13,6 @@ exports.config =
     "minify-js"
     "require"
     "server"
-    "server-reload"
     "stylus"
     "web-package"
   ]
@@ -42,9 +41,6 @@ exports.config =
   emblem:
     helpers: ["app/templates/handlebars-helpers"]
     emberPath: "ember"
-
-  serverReload:
-    watch: ["server.coffee"]
 
   template:
     nameTransform: (path) ->
