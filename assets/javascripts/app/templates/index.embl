@@ -1,0 +1,32 @@
+.container
+  .row
+    form role="form" submit="submit"
+      .form-group.col-md-6.col-md-offset-3
+        label.control-label for="url1" URL 1
+        = input#url1 class="form-control" value=url1
+      .form-group.col-md-6.col-md-offset-3
+        label.control-label for="url2" URL 2
+        = input#url2 class="form-control" value=url2
+      .form-group.col-md-6.col-md-offset-3
+        button.btn.btn-primary type="submit" Submit
+  .row
+    if content.length
+      h1
+        | Results 
+        small
+          | Average Similarity: 
+          numeral-format value=avgSimilarity format="0.00%"
+          |  / Perfect Matches: 
+          span
+            = perfectCount
+
+    each
+      .well
+        h3 Sentence from URL 1
+        blockquote
+          = sentence1
+        h3 Sentence from URL 2
+        blockquote
+          = sentence2
+        h3 Similarity Score: 
+        numeral-format value=similarity format="0.00%"
